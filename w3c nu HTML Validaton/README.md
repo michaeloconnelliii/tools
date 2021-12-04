@@ -2,6 +2,13 @@
 ## What is this?
 * I created a script (using Python3) that pairs w3c HTML validator errors with their respective webpages and outputs everything to a JSON file. By pairing, I mean, if “stray end tag h3” is an error that appears on 5 pages, all pages should be listed as values for the error (where the error is the key). The script is intended to dramatically speed up the research process for pairing up an error with which webpages contain it. This effort is for the ultimate goal of getting all of the HTML errors in a given codebase documented (so they can be resolved in a systematic way) thus getting closer to w3c HTML compliance.
 
+## What is W3C HTML compliance?
+* HTML code that is fully compliant with the <a href='https://www.w3.org/standards/'>standards</a> set by the World Wide Web Consortium (W3C for short). W3C is an international standards organization founded by the inventor of the web and they develop the standards on which the world wide web is run.
+
+## Why W3C compliance?
+* W3C compliance makes it easier for search engine cralers to identify what the content on a webpage is, and what that content means. 100% compliance is often not necessary for a search engine crawler to achieve this, but it does make it easier.
+* W3C compliance also helps with accessibility. easier webpage maintenance in the long run, and making webpages multi-browser friendly.
+
 ## How does it work?
 * The script works by running the W3C nu HTML checker (v.Nu) on each webpage url listed in important-sites.txt. Python takes the json output from v.Nu and creates a dictionary that pairs the error with an array containing each webpage that has the error.
 
