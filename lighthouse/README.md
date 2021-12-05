@@ -5,7 +5,7 @@
 * The script’s goal and intention is similar to the W3C Nu HTML script - for the ultimate goal of getting all of the performance, accessibility and best-practices errors in a given codebase documented (so they can be resolved in a systematic way) thus getting closer to Lighthouse compliance.
 
 ## What is Lighthouse?
-* Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more. <a href="https://developers.google.com/web/tools/lighthouse">Source</a>.
+* Lighthouse is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more. Source: https://developers.google.com/web/tools/lighthouse
 
 ## Why Lighthouse?
 * Each category mentioned above can be dramatically improved by resolving issues that Lighthouse brings to your attention from an audit. 
